@@ -19,7 +19,7 @@ fn main() {
     let event_loop = EventLoop::new();
 
     // Create a window with a specified title.
-    let window_builder = WindowBuilder::new().with_title("OpenGL9");
+    let window_builder = WindowBuilder::new().with_title("OpenGL");
 
     // Build the windowed context for OpenGL rendering.
     let windowed_context = glutin::ContextBuilder::new()
